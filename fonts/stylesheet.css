@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url('segoe_ui_light.eot');
+    src: url('segoe_ui_light.eot?#iefix') format('embedded-opentype'),
+         url('segoe_ui_light.woff') format('woff'),
+         url('segoe_ui_light.ttf') format('truetype'),
+         url('segoe_ui_light.svg#segoe_ui_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('segoe_ui_bold.eot');
+    src: url('segoe_ui_bold.eot?#iefix') format('embedded-opentype'),
+         url('segoe_ui_bold.woff') format('woff'),
+         url('segoe_ui_bold.ttf') format('truetype'),
+         url('segoe_ui_bold.svg#segoe_ui_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	font-family: SegoeUILight;
+}
+#divInstrucoes {
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+	text-align: justify;
+	position: absolute;
+	z-index: 10;;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #419B59;
+	background-color: #FFFFFF;
+	color: #419B59;
+	margin-top: 10%;
+	font-family: SegoeUIBold;
+}
+#fechaInstrucao{
+	border: 1px solid #419B59;
+	color: #419B59;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	padding: 5px 10px 5px 10px;
+	float: right;
+}
+#fechaInstrucao:hover{
+	color:#FFFFFF;
+	background-color: #419B59; 
+}
+#divHeader {
+	background-color: #419B59;
+	text-align: center;
+	margin-bottom: 2px;
+}
+#divMain {
+	margin-top: 160px;
+}
+#divMain2 {
+	margin-top: 43px;
+}
+#divMain3 {
+	margin-top: 80px;
+	height: 600px;
+}
+#divTbl3 {
+	height: 500px;
+	overflow: auto;
+}
+fieldset {
+	border: 1px solid #419B59;
+}
+label {
+	font-size: 1.6em;
+}
+.labelTitulo {
+	font-size: 4em;
+	color: #FFFFFF;
+	font-family: SegoeUIBold;
+}
+#uf, #ufSacado, #condicoesEspeciais,#valorExtenso {
+	text-transform: uppercase;
+}
+#cidade, #enderecoEmpresa, #enderecoSacado, #nomeFantasia, #nomeSacado, #municipioSacado, #enderecoCobranca {
+	text-transform: capitalize;
+}
+
+input {
+	font-family: SegoeUILight;
+	font-size: 1.2em;
+	height: 35px;
+	width: 100%;
+}
+input[type="submit"] {
+	margin-top: 146px;
+	font-size: 4em;
+	font-family: SegoeUIBold;
+	border: 1px solid #419B59;
+	background-color: #FFFFFF;
+	width: 50%;
+	float: right;
+	height: 81px;
+	color: #419B59;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #419B59;
+	color: #FFFFFF;
+}
+input[type="button"] {
+	margin-top: 146px;
+	font-size: 4em;
+	font-family: SegoeUIBold;
+	border: 1px solid #419B59;
+	background-color: #FFFFFF;
+	width: 50%;
+	float: left;
+	height: 81px;
+	color: #419B59;
+	cursor: pointer;
+}
+input[type="button"]:hover {
+	background-color: #419B59;
+	color: #FFFFFF;
+}
+#btnEtapa {
+	width: 100%;
+}
+#btnEtapa3, #btnVolta3 {
+	margin-top: 178px;
+}
+#btnEtapa2, #btnVolta2 {
+	margin-top: 191px;
+}
+input[type="radio"] {
+	width: 20px;
+	padding-top: 5px;
+	display: inline;
+}
+table {
+	margin-left: 25%;
+	width: 50%;
+}
+.labelInput {
+	font-size: 1.2em;
+}
+textarea {
+	height: 100px;
+	width: 100%;
+	resize: none;
+}
+
